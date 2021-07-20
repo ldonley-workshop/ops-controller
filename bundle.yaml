@@ -3,7 +3,8 @@ version: "2"
 id: "ldonley-workshop-ops-controller"
 description: "CloudBees CI configuration bundle for the ldonley-workshop ops-controller Controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/credentials.yaml"
+  - "jcasc/jenkins.yaml"
 plugins:
   - "plugins.yaml"
 catalog:
